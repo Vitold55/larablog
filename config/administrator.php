@@ -70,6 +70,7 @@ return array(
 		'menus',
 		'slides',
 		'projects',
+		'blogs',
 		'galleries',
 		'Settings' => [
 			'settings.about',

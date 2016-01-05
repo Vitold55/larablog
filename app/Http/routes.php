@@ -24,3 +24,13 @@ Route::get('project/{slug}', [
 	'as' => 'projectCart',
 	'uses' => 'IndexController@projectCart'
 ]);
+
+Route::get('blog', [
+	'as' => 'blog',
+	'uses' => 'BlogController@index'
+]);
+
+Route::get('blog/{slug}', [
+	'as' => 'blog.record',
+	'uses' => 'BlogController@record'
+]);
